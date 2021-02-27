@@ -33,7 +33,7 @@ console.log(imageGalleryRef);
 
 const createItemOfGallery = value => {
   const { url, alt } = value
-  return `<li class = ><img src='${url}' alt='${alt}' width = 600 height = 600/></li>`;
+  return `<li class =  ><img src='${url}' alt='${alt}' width = 600 height = 600/></li>`;
 }
 const сreateGallery = images.map(createItemOfGallery).join('');
 imageGalleryRef.insertAdjacentHTML('beforeend', сreateGallery)
